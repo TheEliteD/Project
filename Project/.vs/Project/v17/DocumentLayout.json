@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\THE PROJECT\\Project\\Project\\",
+  "WorkspaceRootPath": "E:\\Programming\\THE PROJECT\\Project\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E65641-1C18-4ABF-A5F7-DDB352B316ED}|Project.csproj|d:\\projects\\the project\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2E65641-1C18-4ABF-A5F7-DDB352B316ED}|Project.csproj|e:\\programming\\the project\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E65641-1C18-4ABF-A5F7-DDB352B316ED}|Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\THE PROJECT\\Project\\Project\\Program.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\THE PROJECT\\Project\\Project\\Program.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Project\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T18:18:16.567Z",
+              "WhenOpened": "2024-03-13T17:49:25.796Z",
               "EditorCaption": ""
             },
             {
