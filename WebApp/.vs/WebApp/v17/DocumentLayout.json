@@ -27,15 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WebApp",
+              "Title": "WebApp.csproj",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\WebApp\\WebApp.csproj",
               "RelativeDocumentMoniker": "WebApp.csproj",
               "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\WebApp\\WebApp.csproj",
               "RelativeToolTip": "WebApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-13T20:35:11.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:35:11.733Z"
             },
             {
               "$type": "Document",
@@ -47,8 +46,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T20:24:52.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:24:52.252Z"
             },
             {
               "$type": "Document",
