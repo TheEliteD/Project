@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\THE PROJECT\\Project\\Recipes\\Recipes.csproj": {}
+    "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\THE PROJECT\\Project\\Recipes\\Recipes.csproj": {
+    "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
+        "projectUniqueName": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
         "projectName": "Recipes",
-        "projectPath": "D:\\Projects\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\THE PROJECT\\Project\\Recipes\\obj\\",
+        "projectPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,6 +62,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
