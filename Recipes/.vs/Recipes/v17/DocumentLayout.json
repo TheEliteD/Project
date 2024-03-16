@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Migrations\\20240316175433_initialsetup.cs",
               "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Migrations\\20240316175433_initialsetup.cs",
               "RelativeToolTip": "Migrations\\20240316175433_initialsetup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T17:55:52.025Z",
               "EditorCaption": ""
@@ -81,7 +81,8 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T16:29:24.256Z"
+              "WhenOpened": "2024-03-16T16:29:24.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
