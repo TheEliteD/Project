@@ -30,7 +30,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-//Test Test Daniel e smeshen!
-//hell nah dawg wth is evenn all this
-//I kinda dont like C# all that much
-//testing something 2
