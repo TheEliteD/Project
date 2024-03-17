@@ -16,5 +16,10 @@ namespace Recipes.Data
 
         public DbSet<Recipes.Models.Recipe> Recipe { get; set; } = default!;
         public DbSet<Recipes.Models.Chefs> Chefs { get; set; } = default!;
+
+        internal async Task SaveChangesAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
