@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
+          "MySql.Data": "8.3.0",
           "MySql.EntityFrameworkCore": "8.0.0"
         },
         "runtime": {
