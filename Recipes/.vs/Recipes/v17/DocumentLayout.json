@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Views\\Recipes\\Index.cshtml",
               "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Views\\Recipes\\Index.cshtml",
               "RelativeToolTip": "Views\\Recipes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-17T17:55:23.144Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "Migrations\\20240317174607_chefssetup.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:46:08.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T17:46:08.009Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Controllers\\ChefsController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:42:03.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T17:42:03.63Z"
             },
             {
               "$type": "Document",
