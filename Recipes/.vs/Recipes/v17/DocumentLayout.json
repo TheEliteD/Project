@@ -62,8 +62,7 @@
               "RelativeToolTip": "Views\\Recipes\\ShowSearchForm.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T17:22:55.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T17:22:55.361Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "Controllers\\ChefsController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:42:03.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T17:42:03.63Z"
             },
             {
               "$type": "Document",
@@ -124,8 +122,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:15:15.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T17:15:15.882Z"
             },
             {
               "$type": "Document",
@@ -147,7 +144,7 @@
               "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
               "ToolTip": "E:\\It Kariera project\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBwAAAA5AAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T18:41:55.858Z",
               "EditorCaption": ""
@@ -162,8 +159,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T18:39:37.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T18:39:37.163Z"
             },
             {
               "$type": "Document",
