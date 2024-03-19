@@ -25,6 +25,19 @@ namespace Recipes.Controllers
             return View(await _context.Recipe.ToListAsync());
         }
 
+        // GET: Recipes/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
+        // PoST: Recipes/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index", await _context.Recipe.Where(i => i.Name.Contains
+            (SearchPhrase)).ToListAsync());
+        }
+
         // GET: Recipes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
