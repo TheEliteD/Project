@@ -7,7 +7,7 @@ using Recipes.Areas.Identity.IndData;
 
 namespace Recipes.Data
 {
-    public class ApplicationUserEntityConfiguration : IEntityTypeConfiguration<AppUser>
+    internal class ApplicationUserEntityConfiguration : IEntityTypeConfiguration<AppUser>
     {
         public void Configure(EntityTypeBuilder<AppUser> builder)
         {
