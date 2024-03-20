@@ -129,7 +129,8 @@ namespace Recipes.Areas.Identity.Pages.Account
         private IdentityUser CreateUser() => new IdentityUser()
         {
             Id = Guid.NewGuid().ToString(),
-            Email = Input.Email
+            Email = Input.Email,
+            UserName = Input.Email
         };
             /*try
             {
