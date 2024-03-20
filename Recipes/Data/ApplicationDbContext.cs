@@ -6,9 +6,13 @@ namespace Recipes.Data
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
-        public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base(options)
+        {}
+
+        protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new ApplicationUserEntityConfiguration());
         }
 
         public DbSet<Recipes.Models.Recipe> Recipe { get; set; } = default!;
