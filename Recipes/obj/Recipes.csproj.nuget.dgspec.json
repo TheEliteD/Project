@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj": {}
+    "E:\\It Kariera project\\Project\\Recipes\\Recipes.csproj": {}
   },
   "projects": {
-    "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj": {
+    "E:\\It Kariera project\\Project\\Recipes\\Recipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
+        "projectUniqueName": "E:\\It Kariera project\\Project\\Recipes\\Recipes.csproj",
         "projectName": "Recipes",
-        "projectPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\obj\\",
+        "projectPath": "E:\\It Kariera project\\Project\\Recipes\\Recipes.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "E:\\It Kariera project\\Project\\Recipes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
