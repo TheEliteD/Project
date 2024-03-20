@@ -680,3 +680,9 @@ E:\Programming\THE PROJECT\Project\Recipes.Tests\obj\Debug\net8.0\refint\Recipes
 E:\Programming\THE PROJECT\Project\Recipes.Tests\obj\Debug\net8.0\Recipes.Tests.pdb
 E:\Programming\THE PROJECT\Project\Recipes.Tests\obj\Debug\net8.0\Recipes.Tests.genruntimeconfig.cache
 E:\Programming\THE PROJECT\Project\Recipes.Tests\obj\Debug\net8.0\ref\Recipes.Tests.dll
+E:\Programming\THE PROJECT\Project\Recipes.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Programming\THE PROJECT\Project\Recipes.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Programming\THE PROJECT\Project\Recipes.Tests\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Programming\THE PROJECT\Project\Recipes.Tests\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+E:\Programming\THE PROJECT\Project\Recipes.Tests\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Programming\THE PROJECT\Project\Recipes.Tests\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
