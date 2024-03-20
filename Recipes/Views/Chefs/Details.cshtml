@@ -4,6 +4,8 @@
     ViewData["Title"] = "Details";
 }
 
+@if (User.Identity?.IsAuthenticated ?? false)
+{
 <h1>Details</h1>
 
 <div>
@@ -28,3 +30,8 @@
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+}
+else
+{
+    <h2 class="error">Register or Log in to view the chefs!</h2>
+}

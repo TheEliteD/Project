@@ -4,6 +4,8 @@
     ViewData["Title"] = "Index";
 }
 
+@if (User.Identity?.IsAuthenticated ?? false)
+{
 <h1>Chefs</h1>
 
 <p>
@@ -39,3 +41,8 @@
 }
     </tbody>
 </table>
+}
+else
+{
+    <h2 class="error">Register or Log in to view the chefs!</h2>
+}
