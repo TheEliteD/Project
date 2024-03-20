@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\It Kariera project\\Project\\Recipes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\recipes\\controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\recipes\\migrations\\20240317174607_chefssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ShowSearchForm.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Recipes\\Views\\Recipes\\ShowSearchForm.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipes\\ShowSearchForm.cshtml",
@@ -62,7 +62,8 @@
               "RelativeToolTip": "Views\\Recipes\\ShowSearchForm.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T17:22:55.361Z"
+              "WhenOpened": "2024-03-19T17:22:55.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +75,8 @@
               "RelativeToolTip": "Views\\Chefs\\Index.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAYwBUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T19:42:39.205Z"
+              "WhenOpened": "2024-03-17T19:42:39.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -86,19 +88,21 @@
               "RelativeToolTip": "Migrations\\20240317174607_chefssetup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:46:08.009Z"
+              "WhenOpened": "2024-03-17T17:46:08.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ChefsController.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Recipes\\Controllers\\ChefsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChefsController.cs",
               "ToolTip": "E:\\It Kariera project\\Project\\Recipes\\Controllers\\ChefsController.cs",
               "RelativeToolTip": "Controllers\\ChefsController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBkAAAAJAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAxwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:42:03.63Z"
+              "WhenOpened": "2024-03-17T17:42:03.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -110,11 +114,12 @@
               "RelativeToolTip": "Models\\Chefs.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:38:50.308Z"
+              "WhenOpened": "2024-03-17T17:38:50.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -122,7 +127,8 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:15:15.882Z"
+              "WhenOpened": "2024-03-17T17:15:15.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,32 +140,34 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-16T18:49:28.682Z"
+              "WhenOpened": "2024-03-16T18:49:28.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RecipesController.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
               "ToolTip": "E:\\It Kariera project\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAA2AAAA",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAkwDEAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T18:41:55.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\It Kariera project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAB5AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T18:39:37.163Z"
+              "WhenOpened": "2024-03-16T18:39:37.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -171,7 +179,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:19:34.259Z"
+              "WhenOpened": "2024-03-13T20:19:34.259Z",
+              "EditorCaption": ""
             }
           ]
         }
