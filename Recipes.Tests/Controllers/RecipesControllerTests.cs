@@ -24,7 +24,7 @@ namespace Recipes.Tests.Controllers
 
         public void TestCreate()
         {
-
+            var recipe = new Recipe(1, "burger", "beef", "yummy");
         }
         /*
         private Mock<ApplicationDbContext> SetUpApplicationContextMock()

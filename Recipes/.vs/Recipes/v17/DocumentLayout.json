@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\recipes.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,43 +27,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Recipes.Tests",
-              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Recipes.Tests.csproj",
-              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Recipes.Tests.csproj",
-              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Recipes.Tests.csproj",
-              "RelativeToolTip": "..\\Recipes.Tests\\Recipes.Tests.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-21T14:47:57.812Z",
+              "DocumentIndex": 2,
+              "Title": "GlobalSuppressions.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\GlobalSuppressions.cs",
+              "RelativeDocumentMoniker": "..\\Recipes.Tests\\GlobalSuppressions.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\GlobalSuppressions.cs",
+              "RelativeToolTip": "..\\Recipes.Tests\\GlobalSuppressions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:20:03.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RecipesControllerTests.cs",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
               "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
               "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
               "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T14:42:16.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RecipesController.cs",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
               "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAkwF4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T14:41:14.644Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:19:34.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T20:19:34.259Z"
             }
           ]
         }
