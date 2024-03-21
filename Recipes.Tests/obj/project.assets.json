@@ -81,6 +81,22 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Google.Apis.Core/1.67.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Google.Protobuf/3.25.1": {
         "type": "package",
         "compile": {
@@ -3789,6 +3805,28 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Google.Apis.Core/1.67.0": {
+      "sha512": "IPq0I3B01NYZraPoMl8muELFLg4Vr2sbfyZp4PR2Xe3MAhHkZCiKyV28Yh1L14zIKUb0X0snol1sR5/mx4S6Iw==",
+      "type": "package",
+      "path": "google.apis.core/1.67.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.core.1.67.0.nupkg.sha512",
+        "google.apis.core.nuspec",
+        "lib/net462/Google.Apis.Core.dll",
+        "lib/net462/Google.Apis.Core.pdb",
+        "lib/net462/Google.Apis.Core.xml",
+        "lib/net6.0/Google.Apis.Core.dll",
+        "lib/net6.0/Google.Apis.Core.pdb",
+        "lib/net6.0/Google.Apis.Core.xml",
+        "lib/netstandard2.0/Google.Apis.Core.dll",
+        "lib/netstandard2.0/Google.Apis.Core.pdb",
+        "lib/netstandard2.0/Google.Apis.Core.xml"
       ]
     },
     "Google.Protobuf/3.25.1": {
@@ -10180,6 +10218,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Google.Apis.Core >= 1.67.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Moq >= 4.20.70",
       "NUnit >= 3.14.0",
@@ -10237,6 +10276,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Google.Apis.Core": {
+            "target": "Package",
+            "version": "[1.67.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bjMiAJxPD0YnR7hGi8qNN6gmRE1WiuQ+4r8iUh3MeeDjMqxVBpzwHzK68hFWQ69Gf7eXT7GD48pNQ+zowEWooA==",
+  "dgSpecHash": "As46Pn6SaYm3mqzmcgwodxqElNX5FDyi7VjdatEMyD+r2eFtYwz7vPCcJ2iCd85iBgSgplsXTUR7nBj2l6G8WQ==",
   "success": true,
   "projectFilePath": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Recipes.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\google.apis.core\\1.67.0\\google.apis.core.1.67.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
