@@ -1,40 +1,188 @@
-﻿using Google;
-using Moq;
-using Microsoft.EntityFrameworkCore;
+﻿using Moq;
+using NUnit.Framework;
 using Recipes.Controllers;
 using Recipes.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Recipes.Models;
+using System;
+using System.Threading.Tasks;
 
 namespace Recipes.Tests.Controllers
 {
+    [TestFixture]
     public class RecipesControllerTests
     {
-        private readonly RecipesController _recipesController;
+        private MockRepository mockRepository;
+
+        private Mock<ApplicationDbContext> mockApplicationDbContext;
 
         [SetUp]
         public void SetUp()
         {
+            this.mockRepository = new MockRepository(MockBehavior.Strict);
 
+            this.mockApplicationDbContext = this.mockRepository.Create<ApplicationDbContext>();
         }
 
-        public void TestCreate()
+        private RecipesController CreateRecipesController()
         {
-            var recipe = new Recipe(1, "burger", "beef", "yummy");
+            return new RecipesController(
+                this.mockApplicationDbContext.Object);
         }
-        /*
-        private Mock<ApplicationDbContext> SetUpApplicationContextMock()
+
+        [Test]
+        public async Task Index_StateUnderTest_ExpectedBehavior()
         {
-            var applicationContextMocl = new Mock<ApplicationDbContext>();
+            // Arrange
+            var recipesController = this.CreateRecipesController();
 
-            applicationContextMocl.Setup(mock => mock.Recipe.Add(It.IsAny<Recipe>()));
+            // Act
+            var result = await recipesController.Index();
 
-            return applicationContextMocl;
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
         }
-        */
+
+        [Test]
+        public async Task ShowSearchForm_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+
+            // Act
+            var result = await recipesController.ShowSearchForm();
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task ShowSearchResults_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            String SearchPhrase = null;
+
+            // Act
+            var result = await recipesController.ShowSearchResults(
+                SearchPhrase);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task Details_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            int? id = null;
+
+            // Act
+            var result = await recipesController.Details(
+                id);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public void Create_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+
+            // Act
+            var result = recipesController.Create();
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task Create_StateUnderTest_ExpectedBehavior1()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            Recipe recipe = null;
+
+            // Act
+            var result = await recipesController.Create(
+                recipe);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task Edit_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            int? id = null;
+
+            // Act
+            var result = await recipesController.Edit(
+                id);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task Edit_StateUnderTest_ExpectedBehavior1()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            int id = 0;
+            Recipe recipe = null;
+
+            // Act
+            var result = await recipesController.Edit(
+                id,
+                recipe);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task Delete_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            int? id = null;
+
+            // Act
+            var result = await recipesController.Delete(
+                id);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
+
+        [Test]
+        public async Task DeleteConfirmed_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
+            var recipesController = this.CreateRecipesController();
+            int id = 0;
+
+            // Act
+            var result = await recipesController.DeleteConfirmed(
+                id);
+
+            // Assert
+            Assert.Fail();
+            this.mockRepository.VerifyAll();
+        }
     }
 }

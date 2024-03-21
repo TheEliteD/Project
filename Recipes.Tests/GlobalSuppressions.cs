@@ -5,4 +5,4 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("CodeQuality", "IDE0051:Remove unused private members", Justification = "<Pending>", Scope = "member", Target = "~M:Recipes.Tests.Controllers.RecipesControllerTests.SetUpApplicationContextMock~Moq.Mock{Google.ApplicationContext}")]
+[assembly: SuppressMessage("CodeQuality", "IDE0051:Remove unused private members", Justification = "<Pending>", Scope = "member", Target = "~M:Recipes.Tests.Controllers.RecipesControllerTests2.SetUpApplicationContextMock~Moq.Mock{Google.ApplicationContext}")]

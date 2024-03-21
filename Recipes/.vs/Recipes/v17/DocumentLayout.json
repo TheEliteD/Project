@@ -3,11 +3,14 @@
   "WorkspaceRootPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RecipesControllerTests.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T20:11:01.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GlobalSuppressions.cs",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\GlobalSuppressions.cs",
               "RelativeDocumentMoniker": "..\\Recipes.Tests\\GlobalSuppressions.cs",
@@ -45,32 +61,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RecipesControllerTests.cs",
-              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
-              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
-              "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABCAAAA",
+              "Title": "RecipesControllerTests2.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs",
+              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs*",
+              "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T14:42:16.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RecipesController.cs",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
               "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAkwF4AAAAfAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAF4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T14:41:14.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\Recipes.Tests\\UnitTest1.cs",
@@ -78,12 +94,11 @@
               "RelativeToolTip": "..\\Recipes.Tests\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T14:35:40.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T14:35:40.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
