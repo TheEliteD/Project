@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/pN8ihDqGzIoGDjmzHkDIi+k/VjUzmlP/kyrRndd6ld4hSwcyUGqQ/1mP8mVdgxwhhIDXPM055ZYSKxOlkzalA==",
+  "dgSpecHash": "Wu9cWH4QCfu7f7SXbbRuIvicYzPnlkyUIa0xkyrVII8X8W+Ai+7Qgg2s8fo3sBQWzqth9nRJwOK3TkTRa36tHA==",
   "success": true,
   "projectFilePath": "E:\\It Kariera project\\Project\\Project\\Recipes.Tests\\Recipes.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\angel\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\google.apis.core\\1.67.0\\google.apis.core.1.67.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -202,5 +203,12 @@
     "C:\\Users\\angel\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\It Kariera project\\Project\\Project\\Recipes.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

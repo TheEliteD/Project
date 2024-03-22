@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Recipes.Tests/1.0.0": {
         "dependencies": {
+          "Google.Apis.Core": "1.67.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Moq": "4.20.70",
           "NUnit": "3.14.0",
@@ -74,6 +75,17 @@
         }
       },
       "coverlet.collector/6.0.0": {},
+      "Google.Apis.Core/1.67.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.67.0.0",
+            "fileVersion": "1.67.0.0"
+          }
+        }
+      },
       "Google.Protobuf/3.25.1": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
@@ -2620,6 +2632,13 @@
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.67.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IPq0I3B01NYZraPoMl8muELFLg4Vr2sbfyZp4PR2Xe3MAhHkZCiKyV28Yh1L14zIKUb0X0snol1sR5/mx4S6Iw==",
+      "path": "google.apis.core/1.67.0",
+      "hashPath": "google.apis.core.1.67.0.nupkg.sha512"
     },
     "Google.Protobuf/3.25.1": {
       "type": "package",
