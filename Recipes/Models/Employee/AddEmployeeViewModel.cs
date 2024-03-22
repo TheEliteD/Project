@@ -1,4 +1,6 @@
-﻿namespace Recipes.Models.Employee
+﻿
+
+namespace Recipes.Models.Employee
 {
     public class AddEmployeeViewModel
     {

@@ -22,7 +22,7 @@ namespace Recipes.Controllers
         }
 
         [HttpGet]
-        public IActionResult Add()
+        public IActionResult Add(Employee _recipe)
         {
             return View();
         }
