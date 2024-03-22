@@ -18,8 +18,6 @@ namespace Recipes.Models
         public string Description { get; set; }
 
         public Recipe()
-        {
-            
-        }
+        {}
     }
 }
