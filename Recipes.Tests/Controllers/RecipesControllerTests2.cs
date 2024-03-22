@@ -44,20 +44,5 @@ namespace Recipes.Tests.Controllers
             var options = new DbContextOptionsBuilder<ApplicationDbContext>();
             return new ApplicationDbContext(options.Options);
         }
-
-        public void TestCreate()
-        {
-            //var recipe = new Recipe(1, "burger", "beef", "yummy");
-        }
-        /*
-        private Mock<ApplicationDbContext> SetUpApplicationContextMock()
-        {
-            var applicationContextMocl = new Mock<ApplicationDbContext>();
-
-            applicationContextMocl.Setup(mock => mock.Recipe.Add(It.IsAny<Recipe>()));
-
-            return applicationContextMocl;
-        }
-        */
     }
 }

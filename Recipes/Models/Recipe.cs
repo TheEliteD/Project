@@ -19,5 +19,13 @@ namespace Recipes.Models
 
         public Recipe()
         {}
+
+        public Recipe(int id, string name, string ingredients, string description)
+        {
+            Id = id;
+            Name = name;
+            Ingredients = ingredients;
+            Description = description;
+        }
     }
 }
