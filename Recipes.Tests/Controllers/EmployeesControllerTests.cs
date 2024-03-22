@@ -55,8 +55,7 @@ namespace Recipes.Tests.Controllers
 
         private ApplicationDbContext SetUpApplicationContext()
         {
-            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase("UnitTestsDb");
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>().UseInMemoryDatabase("UnitTestsDb");
 
             return new ApplicationDbContext(options.Options);
         }
