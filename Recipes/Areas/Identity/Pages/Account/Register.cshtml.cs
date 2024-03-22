@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Recipes.Areas.Identity.IndData;
 
 namespace Recipes.Areas.Identity.Pages.Account
 {
@@ -89,6 +90,7 @@ namespace Recipes.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "user");
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);
 
@@ -126,11 +128,13 @@ namespace Recipes.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser() => new IdentityUser()
+        private IdentityUser CreateUser() => new AppUser()
         {
             Id = Guid.NewGuid().ToString(),
             Email = Input.Email,
-            UserName = Input.Email
+            UserName = Input.Email,
+            FirstName = Input.FirstName,
+            LastName = Input.LastName
         };
         //heheheha1
             /*try
