@@ -33,10 +33,12 @@ namespace Recipes.Tests.Controllers
         }
 
         [Test]
-        public void AddTest()
+        public async Task AddTest()
         {
-            var recipe = new Recipe(1, "burger", "beef", "yummy");
-            //recipesController.Add(recipe);
+            var _recipe = new Recipe { Id = 1, Name = "Test Recipe 1", Ingredients = "Test Ingredients 1", Description = "Test Description 1" };
+            await recipesController.Create(_recipe);
+            var createdRecipe = applicationContext.Recipe.LastOrDefault();
+            Assert.That(createdRecipe, Is.EqualTo(_recipe), "Recipe is different than expected");
         }
 
         private ApplicationDbContext SetUpApplicationConext()

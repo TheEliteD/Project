@@ -1,113 +1,31 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\",
+  "WorkspaceRootPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d532b9a0-6e08-4d33-bab2-d86773326eaaMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\inddata\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\inddata\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|5d0fe86c-fda4-486c-962d-655d7fe4c2a0MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|1b72510e-5a8a-42c9-a977-096c752cb437MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e68d2fe3-2afd-4667-a15c-e706fcd1563cMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUserRoles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|7c2d51c5-a9af-4ea8-8700-6477b4566aebMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d20c670b-fe76-478f-934d-c80b235fdbb5MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUserRoles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|144b8223-9db4-402c-af71-22db397b9886MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers_1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{4E95E987-94B8-43C2-9044-A739450CE9EB}|..\\Recipes.Tests\\Recipes.Tests.csproj|e:\\programming\\the project\\project\\recipes.tests\\controllers\\recipescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|46713617-443a-413c-a8ef-90e85456a3edMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|6b5e831e-ef60-41dc-982d-7fd12c2f4ec3MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\migrations\\20240316175433_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:migrations\\20240316175433_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\It Kariera project\\Project\\Project\\Recipes\\.vs\\Recipes\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\Recipes\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\migrations\\20240320164031_registration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:migrations\\20240320164031_registration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\migrations\\20240320164031_registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:migrations\\20240320164031_registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\recipes\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\recipes\\showsearchform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\chefs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\chefs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\models\\chefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:models\\chefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\migrations\\20240317174607_chefssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:migrations\\20240317174607_chefssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\the project\\project\\recipes\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -117,329 +35,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create dbo.AspNetRoles_1 ",
-              "DocumentMoniker": "5d0fe86c-fda4-486c-962d-655d7fe4c2a0MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql",
-              "ToolTip": "Create dbo.AspNetRoles_1 *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T13:06:21.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create dbo.AspNetRoles ",
-              "DocumentMoniker": "1b72510e-5a8a-42c9-a977-096c752cb437MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles.sql",
-              "ToolTip": "Create dbo.AspNetRoles *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T12:52:53.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create dbo.AspNetUsers_1 ",
-              "DocumentMoniker": "144b8223-9db4-402c-af71-22db397b9886MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers_1.sql",
-              "ToolTip": "Create dbo.AspNetUsers_1 ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T12:11:58.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create dbo.AspNetUserRoles ",
-              "DocumentMoniker": "e68d2fe3-2afd-4667-a15c-e706fcd1563cMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUserRoles.sql",
-              "ToolTip": "Create dbo.AspNetUserRoles *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T12:10:31.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:19:34.259Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAABkAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T20:41:02.44Z"
+              "Title": "RecipesControllerTests3.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests3.cs",
+              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests3.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests3.cs",
+              "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:39:06.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAWwIYAAAAjAAAA",
+              "Title": "RecipesControllerTests2.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs",
+              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs",
+              "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests2.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:42:27.972Z",
+              "WhenOpened": "2024-03-22T13:48:19.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "Controllers\\RecipesController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwEgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T06:44:45.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecipesControllerTests.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "RelativeToolTip": "..\\Recipes.Tests\\Controllers\\RecipesControllerTests.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:10:27.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\IndData\\AppUser.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\IndData\\AppUser.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\IndData\\AppUser.cs",
-              "RelativeToolTip": "Areas\\Identity\\IndData\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:13:30.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create dbo.AspNetRoles_1 ",
-              "DocumentMoniker": "d532b9a0-6e08-4d33-bab2-d86773326eaaMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql",
-              "ToolTip": "Create dbo.AspNetRoles_1 ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T12:48:38.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create dbo.AspNetUserRoles ",
-              "DocumentMoniker": "d20c670b-fe76-478f-934d-c80b235fdbb5MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUserRoles.sql",
-              "ToolTip": "Create dbo.AspNetUserRoles ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T12:48:48.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create dbo.AspNetUsers_1 ",
-              "DocumentMoniker": "7c2d51c5-a9af-4ea8-8700-6477b4566aebMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers_1.sql",
-              "ToolTip": "Create dbo.AspNetUsers_1 ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T12:00:45.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create dbo.AspNetRoles ",
-              "DocumentMoniker": "46713617-443a-413c-a8ef-90e85456a3edMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles.sql",
-              "ToolTip": "Create dbo.AspNetRoles *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T11:58:45.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RecipesController.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\RecipesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\RecipesController.cs",
-              "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAUwEkAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T18:41:55.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create dbo.AspNetUsers ",
-              "DocumentMoniker": "6b5e831e-ef60-41dc-982d-7fd12c2f4ec3MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers.sql",
-              "ToolTip": "Create dbo.AspNetUsers *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T11:56:41.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240316175433_initialsetup.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240316175433_initialsetup.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240316175433_initialsetup.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240316175433_initialsetup.cs",
-              "RelativeToolTip": "Migrations\\20240316175433_initialsetup.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:54:33.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T18:39:37.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20240320164031_Registration.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240320164031_Registration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240320164031_Registration.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240320164031_Registration.cs",
-              "RelativeToolTip": "Migrations\\20240320164031_Registration.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAD4vyMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:33:51.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20240317174607_chefssetup.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240317174607_chefssetup.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240317174607_chefssetup.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240317174607_chefssetup.cs",
-              "RelativeToolTip": "Migrations\\20240317174607_chefssetup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:46:08.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DocumentLayout.json",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\.vs\\Recipes\\v17\\DocumentLayout.json",
-              "RelativeDocumentMoniker": ".vs\\Recipes\\v17\\DocumentLayout.json",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\.vs\\Recipes\\v17\\DocumentLayout.json",
-              "RelativeToolTip": ".vs\\Recipes\\v17\\DocumentLayout.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-22T08:38:15.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABwAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T20:39:19.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:15:15.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAD4v40AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:38:49.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-20T20:41:09.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T21:23:18.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Chefs.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs.cs",
-              "RelativeDocumentMoniker": "Models\\Chefs.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs.cs",
-              "RelativeToolTip": "Models\\Chefs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:38:50.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chefs\\Index.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Index.cshtml",
-              "RelativeToolTip": "Views\\Chefs\\Index.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwBUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T19:42:39.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ShowSearchForm.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\ShowSearchForm.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recipes\\ShowSearchForm.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\ShowSearchForm.cshtml",
-              "RelativeToolTip": "Views\\Recipes\\ShowSearchForm.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T17:22:55.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20240320164031_Registration.Designer.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240320164031_Registration.Designer.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240320164031_Registration.Designer.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240320164031_Registration.Designer.cs",
-              "RelativeToolTip": "Migrations\\20240320164031_Registration.Designer.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAD4v3EAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:33:28.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
               "Title": "ChefsController.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\ChefsController.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\ChefsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChefsController.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\ChefsController.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Controllers\\ChefsController.cs",
               "RelativeToolTip": "Controllers\\ChefsController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAxwBkAAAAJAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T17:42:03.63Z"
+              "WhenOpened": "2024-03-22T13:47:58.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "Models\\Recipe.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Models\\Recipe.cs",
+              "RelativeToolTip": "Models\\Recipe.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T06:37:48.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T20:19:34.259Z"
             }
           ]
         }
