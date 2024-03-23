@@ -11,10 +11,10 @@ namespace Recipes.Services
 	public class UserService : IUserService
 	{
 		private readonly IUserRepository userRepository;
-		private readonly UserManager<AppUser> userManager;
+		private readonly UserManager<IdentityUser> userManager;
 
 		public UserService(IUserRepository userRepository, 
-			UserManager<AppUser> userManager)
+			UserManager<IdentityUser> userManager)
 		{
 			this.userRepository = userRepository;
 			this.userManager = userManager;

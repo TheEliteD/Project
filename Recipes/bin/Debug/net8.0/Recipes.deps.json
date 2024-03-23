@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
           "MySql.Data": "8.3.0",
-          "MySql.EntityFrameworkCore": "8.0.0"
+          "MySql.EntityFrameworkCore": "8.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Recipes.dll": {}
