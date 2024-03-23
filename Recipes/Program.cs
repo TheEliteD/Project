@@ -41,6 +41,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+DataSeed.SeedUserRoles(app);
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
