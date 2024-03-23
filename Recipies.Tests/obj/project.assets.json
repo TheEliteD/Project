@@ -10221,19 +10221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\angel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
+      "projectUniqueName": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
       "projectName": "Recipies.Tests",
-      "projectPath": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\obj\\",
+      "projectPath": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
+      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+      "outputPath": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10247,8 +10247,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Programming\\AAAAA\\Project\\Recipes\\Recipes.csproj": {
-              "projectPath": "E:\\Programming\\AAAAA\\Project\\Recipes\\Recipes.csproj"
+            "E:\\It Kariera project\\Project\\Project\\Recipes\\Recipes.csproj": {
+              "projectPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\Recipes.csproj"
             }
           }
         }
