@@ -27,10 +27,11 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
         options.Password.RequiredLength = 6;
         options.Password.RequireUppercase = true;
     })
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
+//builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddRazorPages();
 

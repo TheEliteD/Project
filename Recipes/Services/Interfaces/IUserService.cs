@@ -6,8 +6,6 @@ namespace Recipes.Services.Interfaces
 	{
 		IEnumerable<UserViewModel> GetAll();
 
-		Task<IEnumerable<UserViewModel>> GetAllAsync();
-
-
+		Task<IEnumerable<UserViewModel>> IndexAsync();
 	}
 }

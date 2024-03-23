@@ -22,7 +22,7 @@ namespace Recipes.Services
 		public IEnumerable<UserViewModel> GetAll()
 			=> userRepository.GetAll();
 
-		public async Task<IEnumerable<UserViewModel>> GetAllAsync()
+		public async Task<IEnumerable<UserViewModel>> IndexAsync()
 		{
 			var users = new List<UserViewModel>();
 

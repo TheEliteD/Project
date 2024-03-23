@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Enums\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Data\\Enums\\UserRoles.cs",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Enums\\UserRoles.cs",
+              "RelativeToolTip": "Data\\Enums\\UserRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:33:45.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:30:34.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:30:14.07Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAswCIAAAAhAAAA",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T17:14:11.672Z",
               "EditorCaption": ""
