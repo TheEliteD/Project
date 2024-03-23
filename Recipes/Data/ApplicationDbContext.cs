@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Recipes.Models.Employee;
 
 namespace Recipes.Data
 {
@@ -17,5 +18,6 @@ namespace Recipes.Data
 
         public DbSet<Recipes.Models.Recipe> Recipe { get; set; } = default!;
         public DbSet<Recipes.Models.Chefs> Chefs { get; set; } = default!;
+        public DbSet<Recipes.Models.Employee.Employee> Employees { get; set; }
     }
 }
