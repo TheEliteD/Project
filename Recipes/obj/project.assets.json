@@ -9321,19 +9321,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\It Kariera project\\Project\\Project\\Recipes\\Recipes.csproj",
+      "projectUniqueName": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
       "projectName": "Recipes",
-      "projectPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\Recipes.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\obj\\",
+      "projectPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\Recipes.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "E:\\Programming\\THE PROJECT\\Project\\Recipes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

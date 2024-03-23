@@ -49,8 +49,9 @@ namespace Recipes.Tests.Controllers
 
             var result = await employeesController.Add(employee);
 
-            var createdRecipe = applicationContext.Employees.LastOrDefault();
-            Assert.AreEqual(result, createdRecipe, "heheheha");
+            Assert.IsInstanceOf<RedirectToActionResult>(result);
+            var redirectResult = (RedirectToActionResult)result;
+            Assert.AreEqual("Index", redirectResult.ActionName);
         }
 
         private ApplicationDbContext SetUpApplicationContext()
