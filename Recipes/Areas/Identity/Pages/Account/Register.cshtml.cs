@@ -19,7 +19,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Recipes.Areas.Identity.IndData;
-using Recipes.Data.Constants;
 
 namespace Recipes.Areas.Identity.Pages.Account
 {
@@ -91,7 +90,7 @@ namespace Recipes.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(user, Roles.User.ToString());
+                    await _userManager.AddToRoleAsync(user, "user");
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);
 

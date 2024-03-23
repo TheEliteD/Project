@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Recipes.Data.Constants;
 
 namespace Recipes.Data
@@ -20,15 +19,10 @@ namespace Recipes.Data
                 var roleExists = dbContext.Roles.Any(roleEntity => roleEntity.Name == role);
                 if (!roleExists)
                 {
-                    var identityRole = new IdentityRole(roleName)
-                    {
-                        NormalizedName = roleName.ToUpper(),
-                    };
-
-                  dbContext.Roles.Add(identityRole);
+                    dbContext.Roles.Add(new IdentityRole(roleName));
                 }
             }
-            
+
             dbContext.SaveChanges();
         }
     }
