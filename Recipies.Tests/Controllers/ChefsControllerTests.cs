@@ -57,7 +57,7 @@ namespace Recipies.Tests.Controllers
                 Id = 1, // Ensure the Id is unique and valid
                 // Missing required fields to make ModelState invalid
             };
-            chefsController.ModelState.AddModelError("ChefReviews", "ChefReviews is required"); // Simulate ModelState error
+            chefsController.ModelState.AddModelError("ChefReviews", "ChefReviews is required");
 
             // Act
             var result = await chefsController.Create(invalidChefs);
@@ -65,7 +65,7 @@ namespace Recipies.Tests.Controllers
             // Assert
             Assert.That(result, Is.InstanceOf<ViewResult>());
             var viewResult = result as ViewResult;
-            Assert.That(viewResult.ViewName, Is.Null.Or.Empty); // Ensure it returns the default view
+            Assert.That(viewResult.ViewName, Is.Null.Or.Empty);
             Assert.That(viewResult.Model, Is.EqualTo(invalidChefs));
         }
 
@@ -73,7 +73,7 @@ namespace Recipies.Tests.Controllers
         public async Task Edit_Returns_View_With_Valid_Id()
         {
             // Arrange
-            var validChefsId = 1; // Assume this ID exists in the database
+            var validChefsId = 1;
             var expectedChefs = new Chefs
             {
                 Id = validChefsId,
@@ -89,7 +89,7 @@ namespace Recipies.Tests.Controllers
             // Assert
             Assert.That(result, Is.InstanceOf<ViewResult>());
             var viewResult = result as ViewResult;
-            Assert.That(viewResult.ViewName, Is.Null.Or.Empty); // Ensure it returns the default view
+            Assert.That(viewResult.ViewName, Is.Null.Or.Empty);
             Assert.That(viewResult.Model, Is.EqualTo(expectedChefs));
         }
 
@@ -110,13 +110,107 @@ namespace Recipies.Tests.Controllers
         public async Task Edit_Returns_NotFound_With_Nonexistent_Id()
         {
             // Arrange
-            var nonexistentChefsId = 999; // Assume this ID does not exist in the database
+            var nonexistentChefsId = 999;
 
             // Act
             var result = await chefsController.Edit(nonexistentChefsId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<NotFoundResult>());
+        }
+
+        [Test]
+        public async Task Delete_Returns_View_With_Valid_Id()
+        {
+            // Arrange
+            var validChefsId = 1; // Assume this ID exists in the database
+            var expectedChefs = new Chefs
+            {
+                Id = validChefsId,
+                ChefReviews = "Good reviews",
+                TopChefs = "Top chefs"
+            };
+            applicationContext.Chefs.Add(expectedChefs);
+            await applicationContext.SaveChangesAsync();
+
+            // Act
+            var result = await chefsController.Delete(validChefsId);
+
+            // Assert
+            Assert.That(result, Is.InstanceOf<ViewResult>());
+            var viewResult = result as ViewResult;
+            Assert.That(viewResult.ViewName, Is.Null.Or.Empty); // Ensure it returns the default view
+            Assert.That(viewResult.Model, Is.EqualTo(expectedChefs));
+        }
+
+        [Test]
+        public async Task Delete_Returns_NotFound_With_Null_Id()
+        {
+            // Arrange
+            int? invalidChefsId = null;
+
+            // Act
+            var result = await chefsController.Delete(invalidChefsId);
+
+            // Assert
+            Assert.That(result, Is.InstanceOf<NotFoundResult>());
+        }
+
+        [Test]
+        public async Task Delete_Returns_NotFound_With_Nonexistent_Id()
+        {
+            // Arrange
+            var nonexistentChefsId = 999; // Assume this ID does not exist in the database
+
+            // Act
+            var result = await chefsController.Delete(nonexistentChefsId);
+
+            // Assert
+            Assert.That(result, Is.InstanceOf<NotFoundResult>());
+        }
+
+        [Test]
+        public async Task DeleteConfirmed_Removes_Chefs_And_Redirects_To_Index()
+        {
+            // Arrange
+            var chefsId = 1; // Assume this ID exists in the database
+            var chefs = new Chefs
+            {
+                Id = chefsId,
+                ChefReviews = "Good reviews",
+                TopChefs = "Top chefs"
+            };
+            applicationContext.Chefs.Add(chefs);
+            await applicationContext.SaveChangesAsync();
+
+            // Act
+            var result = await chefsController.DeleteConfirmed(chefsId);
+
+            // Assert
+            Assert.That(result, Is.InstanceOf<RedirectToActionResult>());
+            var redirectToActionResult = result as RedirectToActionResult;
+            Assert.That(redirectToActionResult.ActionName, Is.EqualTo("Index"));
+
+            var deletedChefs = await applicationContext.Chefs.FindAsync(chefsId);
+            Assert.That(deletedChefs, Is.Null);
+        }
+
+        [Test]
+        public async Task DeleteConfirmed_Does_Not_Remove_Nonexistent_Chefs()
+        {
+            // Arrange
+            var nonexistentChefsId = 999; // Assume this ID does not exist in the database
+
+            // Act
+            var result = await chefsController.DeleteConfirmed(nonexistentChefsId);
+
+            // Assert
+            Assert.That(result, Is.InstanceOf<RedirectToActionResult>());
+            var redirectToActionResult = result as RedirectToActionResult;
+            Assert.That(redirectToActionResult.ActionName, Is.EqualTo("Index"));
+            // Ensure no chefs were deleted
+            var deletedChefs = await applicationContext.Chefs.FindAsync(nonexistentChefsId);
+            Assert.That(deletedChefs, Is.Null);
         }
 
         private ApplicationDbContext SetUpApplicationContext()
