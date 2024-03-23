@@ -117,17 +117,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create dbo.AspNetRoles_1 ",
-              "DocumentMoniker": "5d0fe86c-fda4-486c-962d-655d7fe4c2a0MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql",
-              "ToolTip": "Create dbo.AspNetRoles_1 *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-22T13:06:21.072Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -169,6 +160,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:42:27.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create dbo.AspNetRoles_1 ",
+              "DocumentMoniker": "5d0fe86c-fda4-486c-962d-655d7fe4c2a0MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql",
+              "ToolTip": "Create dbo.AspNetRoles_1 *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-22T13:06:21.072Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -178,19 +191,6 @@
               "ViewState": "AQIAACoAAAAAAAAAAAAAABkAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-20T20:41:02.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAWwIYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:42:27.972Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
