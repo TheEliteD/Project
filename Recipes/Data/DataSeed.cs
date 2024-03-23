@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Recipes.Data.Constants;
 
 namespace Recipes.Data
 {
@@ -9,7 +10,20 @@ namespace Recipes.Data
             using var scope = webApplication.Services.CreateScope();
             var dbContext = scope.ServiceProvider.GetService<ApplicationDbContext>();
 
-            dbContext.Roles.Add(new IdentityRole("test test"));
+            var roles = Enum.GetValues(typeof(Roles));
+
+            foreach (var role in roles)
+            {
+                var roleName = role.ToString();
+
+                var roleExists = dbContext.Roles.Any(roleEntity => roleEntity.Name == role);
+                if (!roleExists)
+                {
+                    dbContext.Roles.Add(new IdentityRole(roleName));
+                }
+            }
+
+            dbContext.SaveChanges();
         }
     }
 }
