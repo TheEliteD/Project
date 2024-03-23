@@ -13,14 +13,14 @@ namespace Recipies.Tests.Controllers
 {
     internal class RecipesControllerTests
     {
-        private RecipesController employeesController;
+        private RecipesController recipesController;
         private ApplicationDbContext applicationContext;
 
         [SetUp]
         public void SetUp()
         {
             applicationContext = SetUpApplicationContext();
-            employeesController = new RecipesController(applicationContext);
+            recipesController = new RecipesController(applicationContext);
         }
 
         [TearDown]
@@ -42,7 +42,7 @@ namespace Recipies.Tests.Controllers
             };
 
             // Act
-            var result = await employeesController.Create(recipe);
+            var result = await recipesController.Create(recipe);
 
             // Assert
             Assert.That(result, Is.InstanceOf<RedirectToActionResult>());
@@ -65,10 +65,10 @@ namespace Recipies.Tests.Controllers
                 Id = 1, // Ensure the Id is unique and valid
                 // Missing required fields to make ModelState invalid
             };
-            employeesController.ModelState.AddModelError("Name", "Name is required"); // Simulate ModelState error
+            recipesController.ModelState.AddModelError("Name", "Name is required"); // Simulate ModelState error
 
             // Act
-            var result = await employeesController.Create(invalidRecipe);
+            var result = await recipesController.Create(invalidRecipe);
 
             // Assert
             Assert.That(result, Is.InstanceOf<ViewResult>());
@@ -93,7 +93,7 @@ namespace Recipies.Tests.Controllers
             await applicationContext.SaveChangesAsync();
 
             // Act
-            var result = await employeesController.Edit(validRecipeId);
+            var result = await recipesController.Edit(validRecipeId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<ViewResult>());
@@ -109,7 +109,7 @@ namespace Recipies.Tests.Controllers
             int? invalidRecipeId = null;
 
             // Act
-            var result = await employeesController.Edit(invalidRecipeId);
+            var result = await recipesController.Edit(invalidRecipeId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<NotFoundResult>());
@@ -122,7 +122,7 @@ namespace Recipies.Tests.Controllers
             var nonexistentRecipeId = 999; // Assume this ID does not exist in the database
 
             // Act
-            var result = await employeesController.Edit(nonexistentRecipeId);
+            var result = await recipesController.Edit(nonexistentRecipeId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<NotFoundResult>());
@@ -152,7 +152,7 @@ namespace Recipies.Tests.Controllers
             };
 
             // Act
-            var result = await employeesController.Edit(recipeId, updatedRecipe);
+            var result = await recipesController.Edit(recipeId, updatedRecipe);
 
             // Assert
             Assert.That(result, Is.InstanceOf<RedirectToActionResult>());
@@ -190,7 +190,7 @@ namespace Recipies.Tests.Controllers
             };
 
             // Act
-            var result = await employeesController.Edit(recipeId, updatedRecipe);
+            var result = await recipesController.Edit(recipeId, updatedRecipe);
 
             // Assert
             Assert.That(result, Is.InstanceOf<NotFoundResult>());
@@ -216,10 +216,10 @@ namespace Recipies.Tests.Controllers
                 Id = recipeId,
                 // Missing required fields to make ModelState invalid
             };
-            employeesController.ModelState.AddModelError("Name", "Name is required"); // Simulate ModelState error
+            recipesController.ModelState.AddModelError("Name", "Name is required"); // Simulate ModelState error
 
             // Act
-            var result = await employeesController.Edit(recipeId, invalidRecipe);
+            var result = await recipesController.Edit(recipeId, invalidRecipe);
 
             // Assert
             Assert.That(result, Is.InstanceOf<ViewResult>());
@@ -244,7 +244,7 @@ namespace Recipies.Tests.Controllers
             await applicationContext.SaveChangesAsync();
 
             // Act
-            var result = await employeesController.Delete(validRecipeId);
+            var result = await recipesController.Delete(validRecipeId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<ViewResult>());
@@ -260,7 +260,7 @@ namespace Recipies.Tests.Controllers
             int? invalidRecipeId = null;
 
             // Act
-            var result = await employeesController.Delete(invalidRecipeId);
+            var result = await recipesController.Delete(invalidRecipeId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<NotFoundResult>());
@@ -273,7 +273,7 @@ namespace Recipies.Tests.Controllers
             var nonexistentRecipeId = 999; // Assume this ID does not exist in the database
 
             // Act
-            var result = await employeesController.Delete(nonexistentRecipeId);
+            var result = await recipesController.Delete(nonexistentRecipeId);
 
             // Assert
             Assert.That(result, Is.InstanceOf<NotFoundResult>());

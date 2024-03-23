@@ -49,9 +49,6 @@ namespace Recipes.Controllers
             return View();
         }
 
-        // POST: Chefs/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,ChefReviews,TopChefs")] Chefs chefs)
@@ -81,9 +78,6 @@ namespace Recipes.Controllers
             return View(chefs);
         }
 
-        // POST: Chefs/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,ChefReviews,TopChefs")] Chefs chefs)
