@@ -132,8 +132,11 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 1,
 =======
+=======
+>>>>>>> parent of 97675c5 (Added more things to the roles)
               "DocumentIndex": 0,
               "Title": "EmployeesControllerTests.cs",
               "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Controllers\\EmployeesControllerTests.cs",
@@ -470,6 +473,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 29,
+<<<<<<< HEAD
+>>>>>>> parent of 97675c5 (Added more things to the roles)
+=======
 >>>>>>> parent of 97675c5 (Added more things to the roles)
               "Title": "ChefsController.cs",
               "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Controllers\\ChefsController.cs",
@@ -478,6 +484,7 @@
               "RelativeToolTip": "Controllers\\ChefsController.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAIwE4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "WhenOpened": "2024-03-23T15:37:35.385Z",
               "EditorCaption": ""
@@ -494,6 +501,9 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T15:26:13.175Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2024-03-17T17:42:03.63Z"
+>>>>>>> parent of 97675c5 (Added more things to the roles)
 =======
               "WhenOpened": "2024-03-17T17:42:03.63Z"
 >>>>>>> parent of 97675c5 (Added more things to the roles)
