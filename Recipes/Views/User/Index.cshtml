@@ -1,0 +1,38 @@
+﻿@using Recipes.Data.Constants
+@using Recipes.Models.User
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var users = Model;
+}
+
+@model IEnumerable<UserViewModel>
+@if (User.Identity?.IsAuthenticated ?? false && User.IsInRole(UserRoles.Admin.ToString()))
+{
+	<h1>Users</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Email</th>
+				<th>Name</th>
+				<th>Role</th>
+			</tr>
+		</thead>
+
+		@foreach (var user in Model)
+		{
+			<tr>
+				<th>@user.Id</th>
+				<th>@user.Email</th>
+				<th>@user.Name</th>
+				<th>@user.Role</th>
+			</tr>
+		}
+	</table>
+}
+else
+{
+	<h2 class="text-danger">You don't have permission to access this page!</h2>
+}

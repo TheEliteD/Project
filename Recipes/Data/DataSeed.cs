@@ -10,16 +10,20 @@ namespace Recipes.Data
             using var scope = webApplication.Services.CreateScope();
             var dbContext = scope.ServiceProvider.GetService<ApplicationDbContext>();
 
-            var roles = Enum.GetValues(typeof(Roles));
-
+            var roles = Enum.GetValues(typeof(UserRoles));
             foreach (var role in roles)
             {
                 var roleName = role.ToString();
 
-                var roleExists = dbContext.Roles.Any(roleEntity => roleEntity.Name == role);
+                var roleExists = dbContext.Roles.Any(roleEntity => roleEntity.Name == roleName);
                 if (!roleExists)
                 {
-                    dbContext.Roles.Add(new IdentityRole(roleName));
+                    var identityRole = new IdentityRole(roleName)
+                    {
+                        NormalizedName = roleName.ToUpper()
+                    };
+
+                    dbContext.Roles.Add(identityRole);
                 }
             }
 

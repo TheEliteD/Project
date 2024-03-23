@@ -4,26 +4,34 @@ using Recipes.Data;
 using Microsoft.AspNetCore.Identity;
 using Recipes.Areas.Identity.IndData;
 using System.Data;
+using Recipes.Repositories.Interfaces;
+using Recipes.Repositories;
+using Recipes.Services.Interfaces;
+using Recipes.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
-
-//if (!Roles.RoleExists(newRoleName))
- //   Roles.CreateRole(newRoleName);
-
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
-{
-    options.Password.RequireDigit = true;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredUniqueChars = 1;
-    options.Password.RequiredLength = 6;
-    options.Password.RequireUppercase = true;
-}
-).AddEntityFrameworkStores<ApplicationDbContext>();
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? 
+    throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+    {
+        options.Password.RequireDigit = true;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequiredUniqueChars = 1;
+        options.Password.RequiredLength = 6;
+        options.Password.RequireUppercase = true;
+    })
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
