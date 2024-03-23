@@ -15,9 +15,17 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? 
     throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
 
+string connectionString =
+	builder.Configuration.GetConnectionString("ApplicationContextConnectionString") ??
+	throw new InvalidDataException("Connection string ApplicationContextConnectionString is not found");
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<ApplicationDbContext>(context =>
+	context
+		.UseLazyLoadingProxies()
+		.UseMySQL(connectionString));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     {
@@ -30,9 +38,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-//builder.Services.AddScoped<IUserRepository, UserRepository>();
-//builder.Services.AddScoped<IUserService, UserService>();
-
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -63,3 +70,4 @@ app.MapRazorPages();
 app.Run();
 
 //testing something
+//test comment
