@@ -8,7 +8,7 @@
 }
 
 @model IEnumerable<UserViewModel>
-@if (User.Identity?.IsAuthenticated ?? false && User.IsInRole(UserRoles.Admin.ToString()))
+@if ((User.Identity?.IsAuthenticated ?? false) && User.IsInRole(UserRoles.Admin.ToString()))
 {
 	<h1>Users</h1>
 	<table class="table">

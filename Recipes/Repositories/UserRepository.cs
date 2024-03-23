@@ -21,19 +21,19 @@ namespace Recipes.Repositories
 			{
 				var userRole = dbContext.UserRoles
 				.FirstOrDefault(userRoleEntity => userRoleEntity.UserId == userEntity.Id);
-				if (userRole is null)
+				if (userRole == null)
 				{
 					return null;
 				}
 
 				var role = dbContext.Roles
-					.First(roleEntity => roleEntity.Id == userEntity.Id);
+					.FirstOrDefault(roleEntity => roleEntity.Id == userEntity.Id);
 
 				return new UserViewModel(
 					userEntity.Id,
 					userEntity.Email,
 					userEntity.UserName,
-					role.Name);
+					role?.Name);
 			})
 			.Where(user => user != null);
 #pragma warning restore CS8619 // Nullability of reference types in value doesn't match target type.
