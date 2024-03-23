@@ -1,6 +1,11 @@
 ﻿namespace Recipes.Data.Constants
 {
-    public class RoleConstants
+    public enum Roles
     {
+        User,
+        Admin,
+        Employee
     }
 }
+
+//testing testing

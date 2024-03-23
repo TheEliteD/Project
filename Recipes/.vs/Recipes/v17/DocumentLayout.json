@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,31 +121,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "Data\\Enums\\Roles.cs",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Enums\\Roles.cs*",
+              "RelativeToolTip": "Data\\Enums\\Roles.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T12:16:33.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DataSeed.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\DataSeed.cs",
               "RelativeDocumentMoniker": "Data\\DataSeed.cs",
               "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\DataSeed.cs",
               "RelativeToolTip": "Data\\DataSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T09:20:23.338Z"
+              "WhenOpened": "2024-03-23T09:20:23.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABDAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-13T20:19:34.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -153,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Create dbo.AspNetRoles_1 ",
               "DocumentMoniker": "5d0fe86c-fda4-486c-962d-655d7fe4c2a0MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql",
               "ToolTip": "Create dbo.AspNetRoles_1 *",
@@ -162,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -174,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AppUser.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\IndData\\AppUser.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\IndData\\AppUser.cs",
@@ -186,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Create dbo.AspNetRoles_1 ",
               "DocumentMoniker": "d532b9a0-6e08-4d33-bab2-d86773326eaaMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles_1.sql",
               "ToolTip": "Create dbo.AspNetRoles_1 ",
@@ -195,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create dbo.AspNetUserRoles ",
               "DocumentMoniker": "d20c670b-fe76-478f-934d-c80b235fdbb5MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUserRoles.sql",
               "ToolTip": "Create dbo.AspNetUserRoles ",
@@ -204,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Create dbo.AspNetUsers_1 ",
               "DocumentMoniker": "7c2d51c5-a9af-4ea8-8700-6477b4566aebMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers_1.sql",
               "ToolTip": "Create dbo.AspNetUsers_1 ",
@@ -213,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Create dbo.AspNetRoles ",
               "DocumentMoniker": "46713617-443a-413c-a8ef-90e85456a3edMSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetRoles.sql",
               "ToolTip": "Create dbo.AspNetRoles *",
@@ -222,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RecipesController.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\RecipesController.cs",
               "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
@@ -234,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Create dbo.AspNetUsers ",
               "DocumentMoniker": "6b5e831e-ef60-41dc-982d-7fd12c2f4ec3MSSQL__/_localdb__MSSQLLocalDB/ApplicationDbContext_0766e100_2c52_4a2a_bd16_849837adbe2b/True/SqlTable/Create dbo.AspNetUsers.sql",
               "ToolTip": "Create dbo.AspNetUsers *",
@@ -243,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20240316175433_initialsetup.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240316175433_initialsetup.cs",
               "RelativeDocumentMoniker": "Migrations\\20240316175433_initialsetup.cs",
@@ -255,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -267,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "20240320164031_Registration.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240320164031_Registration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240320164031_Registration.cs",
@@ -279,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20240317174607_chefssetup.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240317174607_chefssetup.cs",
               "RelativeDocumentMoniker": "Migrations\\20240317174607_chefssetup.cs",
@@ -291,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DocumentLayout.json",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\.vs\\Recipes\\v17\\DocumentLayout.json",
               "RelativeDocumentMoniker": ".vs\\Recipes\\v17\\DocumentLayout.json",
@@ -303,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -315,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -327,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -339,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -351,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -363,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Chefs.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs.cs",
               "RelativeDocumentMoniker": "Models\\Chefs.cs",
@@ -375,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Chefs\\Index.cshtml",
@@ -387,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ShowSearchForm.cshtml",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\ShowSearchForm.cshtml",
               "RelativeDocumentMoniker": "Views\\Recipes\\ShowSearchForm.cshtml",
@@ -399,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "20240320164031_Registration.Designer.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Migrations\\20240320164031_Registration.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240320164031_Registration.Designer.cs",
@@ -411,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ChefsController.cs",
               "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\ChefsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ChefsController.cs",
