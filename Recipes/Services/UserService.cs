@@ -30,10 +30,10 @@ namespace Recipes.Services
 			foreach(var role in userRoles)
 			{
 				var usersinRoleEntities = await userManager.GetUsersInRoleAsync(role.ToString());
-				var uesrsInRole = usersinRoleEntities
+				var usersInRole = usersinRoleEntities
 					.Select(user => new UserViewModel(user.Id, user.Email, user.UserName, role.ToString()));
 
-				users.AddRange(uesrsInRole);
+				users.AddRange(usersInRole);
 			}
 
 			return users;
