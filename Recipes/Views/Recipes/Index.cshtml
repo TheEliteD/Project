@@ -1,54 +1,55 @@
-﻿@model IEnumerable<Recipes.Models.Recipe>
-
+﻿﻿@using Recipes.Models.Recipes
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Recipes";
 }
+
+@model IEnumerable<RecipeViewModel>
 
 @if (User.Identity?.IsAuthenticated ?? false)
 {
-<h1>Recipes</h1>
+    <h2>Recipes</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Ingredients)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Ingredients)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Ingredients</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var recipe in Model)
+            {
+                <tr>
+                    <th>@recipe.Name</th>
+                    <th>@recipe.Ingredients</th>
+                    <th>@recipe.Description</th>
+                    <th>
+                        <button>
+                            <a asp-controller="Recipes"
+                               asp-action="Edit"
+                               asp-route-id="@recipe.Id">
+                                Edit
+                            </a>
+                        </button>
+                        <button>
+                            <a asp-controller="Recipes"
+                               asp-action="Delete"
+                               asp-route-id="@recipe.Id">
+                                Delete
+                            </a>
+                        </button>
+                    </th>
+                </tr>
+            }
+        </tbody>
     </table>
 }
 else
 {
-    <h2 class="error">Register or Log in to view your recipes!</h2>
+    <h2 class="text-danger">You can't accesss this page if you aren't logged in.</h2>
 }

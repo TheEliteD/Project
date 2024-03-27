@@ -1,51 +1,38 @@
-﻿@model Recipes.Models.Recipe
-
+﻿﻿@using Recipes.Models.Recipes
+@*
+*@
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Recipe";
 }
+
+@model RecipeViewModel
 
 @if (User.Identity?.IsAuthenticated ?? false)
 {
-    <h1>Edit</h1>
+    <h2>Edit Recipe</h2>
 
-    <h4>Recipe</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-4">
-            <form asp-action="Edit">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <input type="hidden" asp-for="Id" />
-                <div class="form-group">
-                    <label asp-for="Name" class="control-label"></label>
-                    <input asp-for="Name" class="form-control" />
-                    <span asp-validation-for="Name" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Ingredients" class="control-label"></label>
-                    <input asp-for="Ingredients" class="form-control" />
-                    <span asp-validation-for="Ingredients" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Description" class="control-label"></label>
-                    <input asp-for="Description" class="form-control" />
-                    <span asp-validation-for="Description" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Save" class="btn btn-primary" />
-                </div>
-            </form>
-        </div>
-    </div>
+    <form method="post" asp-controller="Recipe" asp-action="Edit" asp-route-id="@Model.Id">
+        <p>
+            <label>Name</label>
+            <input type="text" name="Name" value="@Model.Name" />
+        </p>
 
-    <div>
-        <a asp-action="Index">Back to List</a>
-    </div>
+        <p>
+            <label>Ingredients</label>
+            <input type="text" step="any" name="Ingredients" value="@Model.Ingredients" />
+        </p>
+
+        <p>
+            <label>Description</label>
+            <input type="text" name="Description" value="@Model.Description" />
+        </p>
+
+        <button type="submit">Edit</button>
+
+        <button asp-controller="Recipe" asp-action="Index">Cancel</button>
+    </form>
 }
 else
 {
-    <h2 class="error">Register or Log in to edit your recipes!</h2>
-}
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <h2 class="text-danger">You can't accesss this page if you aren't logged in.</h2>
 }
