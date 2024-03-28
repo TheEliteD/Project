@@ -13,11 +13,11 @@ namespace Recipes.Models.Recipes
         public CreateRecipeViewModel()
         { }
 
-        public CreateRecipeViewModel(RecipeEntity product)
+        public CreateRecipeViewModel(RecipeEntity recipe)
         {
-            Name = product.Name;
-            Ingredients = product.Ingredients;
-            Description = product.Description;
+            Name = recipe.Name;
+            Ingredients = recipe.Ingredients;
+            Description = recipe.Description;
         }
     }
 }
