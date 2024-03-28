@@ -3,36 +3,11 @@
   "WorkspaceRootPath": "E:\\Programming\\AAAAA\\Project\\Recipes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\views\\recipes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\recipes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\repositories\\reciperepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +17,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RecipesController.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Controllers\\RecipesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Controllers\\RecipesController.cs",
-              "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T21:21:05.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T21:14:13.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Views\\Recipes\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recipes\\Index.cshtml",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Views\\Recipes\\Index.cshtml",
-              "RelativeToolTip": "Views\\Recipes\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T21:13:13.665Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Views\\Recipes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recipes\\Create.cshtml",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Views\\Recipes\\Create.cshtml",
-              "RelativeToolTip": "Views\\Recipes\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T21:12:33.171Z",
+              "Title": "RecipeRepositoryTests.cs",
+              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
+              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
+              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
+              "RelativeToolTip": "..\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwDkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:02:09.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T21:00:19.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecipeRepository.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Repositories\\RecipeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\RecipeRepository.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Repositories\\RecipeRepository.cs",
-              "RelativeToolTip": "Repositories\\RecipeRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:58:31.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\Entities\\Recipe.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Recipe.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\Entities\\Recipe.cs",
-              "RelativeToolTip": "Data\\Entities\\Recipe.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:55:51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RecipeService.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Services\\RecipeService.cs",
-              "RelativeDocumentMoniker": "Services\\RecipeService.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Services\\RecipeService.cs",
-              "RelativeToolTip": "Services\\RecipeService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAkwBEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T20:52:47.692Z"
+              "WhenOpened": "2024-03-28T14:49:49.111Z",
+              "EditorCaption": ""
             }
           ]
         }
