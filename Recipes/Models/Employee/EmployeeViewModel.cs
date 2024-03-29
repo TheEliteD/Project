@@ -1,4 +1,4 @@
-﻿using Recipes.Data.Entities;
+﻿/*using Recipes.Data.Entities;
 using Recipes.Migrations;
 using EmployeeEntity = Recipes.Data.Entities.Employee;
 
@@ -31,4 +31,4 @@ namespace Recipes.Models.Employee
             Department = employee.Department;
         }
     }
-}
+}*/

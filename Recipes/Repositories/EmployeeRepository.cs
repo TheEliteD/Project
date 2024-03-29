@@ -1,4 +1,4 @@
-﻿using Recipes.Data;
+﻿/*using Recipes.Data;
 using Recipes.Data.Entities;
 using Recipes.Migrations;
 using Recipes.Models.Employee;
@@ -56,4 +56,4 @@ namespace Recipes.Repositories
         public Employee Get(int id)
             => context.Employees.FirstOrDefault(product => product.Id == id);
     }
-}
+}*/
