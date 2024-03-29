@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿/*using System.ComponentModel.DataAnnotations;
 
 namespace Recipes.Models
 {
@@ -19,4 +19,4 @@ namespace Recipes.Models
             
         }
     }
-}
+}*/

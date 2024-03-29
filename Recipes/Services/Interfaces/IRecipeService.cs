@@ -5,14 +5,14 @@ namespace Recipes.Services.Interfaces
 {
     public interface IRecipeService
     {
-        void Add(CreateRecipeViewModel recipe);
+        void Add(CreateRecipesViewModel recipe);
 
-        IEnumerable<RecipeViewModel> GetAll();
+        IEnumerable<RecipesViewModel> GetAll();
 
         void Delete(int id);
 
-        void Edit(RecipeViewModel recipe);
+        void Edit(RecipesViewModel recipe);
 
-        RecipeViewModel Get(int id);
+		RecipesViewModel Get(int id);
     }
 }

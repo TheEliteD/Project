@@ -1,8 +1,8 @@
 ﻿using RecipeEntity = Recipes.Data.Entities.Recipe;
 
-namespace Recipes.Models.Employee
+namespace Recipes.Models.Recipes
 {
-    public class CreateRecipeViewModel
+    public class CreateRecipesViewModel
     {
         public string Name { get; set; }
 
@@ -10,10 +10,10 @@ namespace Recipes.Models.Employee
 
         public string Description { get; set; }
 
-        public CreateRecipeViewModel()
+        public CreateRecipesViewModel()
         { }
 
-        public CreateRecipeViewModel(RecipeEntity product)
+        public CreateRecipesViewModel(RecipeEntity product)
         {
             Name = product.Name;
             Ingredients = product.Ingredients;

@@ -8,6 +8,7 @@ using Recipes.Repositories.Interfaces;
 using Recipes.Repositories;
 using Recipes.Services.Interfaces;
 using Recipes.Services;
+using Chefs.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +39,8 @@ builder.Services.AddScoped<IRecipeService, RecipeService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<IChefsRepository, ChefsRepository>();
+builder.Services.AddScoped<IChefsService, ChefsService>();
 
 var app = builder.Build();
 

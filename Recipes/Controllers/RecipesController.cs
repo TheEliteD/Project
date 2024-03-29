@@ -27,7 +27,7 @@ namespace Recipes.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(CreateRecipeViewModel recipe)
+        public IActionResult Create(CreateRecipesViewModel recipe)
         {
             recipeService.Add(recipe);
 
@@ -49,7 +49,7 @@ namespace Recipes.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(RecipeViewModel recipe)
+        public IActionResult Edit(RecipesViewModel recipe)
         {
             recipeService.Edit(recipe);
 

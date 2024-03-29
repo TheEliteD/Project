@@ -39,7 +39,7 @@ namespace Recipes.Repositories
             context.SaveChanges();
         }
 
-        public void Edit(RecipeViewModel recipe)
+        public void Edit(RecipesViewModel recipe)
         {
             var entity = Get(recipe.Id);
 

@@ -2,7 +2,7 @@
 
 namespace Recipes.Models.Recipes
 {
-    public class RecipeViewModel
+    public class RecipesViewModel
     {
         public int Id { get; set; }
 
@@ -13,11 +13,11 @@ namespace Recipes.Models.Recipes
         public string Description { get; set; }
 
 
-        public RecipeViewModel()
+        public RecipesViewModel()
         {
         }
 
-        public RecipeViewModel(RecipeEntity product)
+        public RecipesViewModel(RecipeEntity product)
         {
             Id = product.Id;
             Name = product.Name;

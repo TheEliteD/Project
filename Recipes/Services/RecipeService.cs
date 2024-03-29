@@ -15,7 +15,7 @@ namespace Recipes.Services
             this.recipeRepository = recipeRepository;
         }
 
-        public void Add(CreateRecipeViewModel recipe)
+        public void Add(CreateRecipesViewModel recipe)
         {
             var recipeDetails = new RecipeDetails(recipe.Name, recipe.Ingredients, recipe.Description);
             var recipeEntity = new Recipe(recipe.Name, recipe.Ingredients, recipe.Description);
@@ -23,23 +23,23 @@ namespace Recipes.Services
             recipeRepository.Add(recipeEntity);
         }
 
-        public IEnumerable<RecipeViewModel> GetAll()
+        public IEnumerable<RecipesViewModel> GetAll()
         {
             var recipeEntities = recipeRepository.GetAll();
 
-            var recipes = recipeEntities.Select(recipe => new RecipeViewModel(recipe));
+            var recipes = recipeEntities.Select(recipe => new RecipesViewModel(recipe));
 
             return recipes;
         }
 
-        public RecipeViewModel Get(int id)
+        public RecipesViewModel Get(int id)
         {
             var recipe = recipeRepository.Get(id);
 
-            return new RecipeViewModel(recipe);
+            return new RecipesViewModel(recipe);
         }
 
-        public void Edit(RecipeViewModel product)
+        public void Edit(RecipesViewModel product)
             => recipeRepository.Edit(product);
 
         public void Delete(int id)

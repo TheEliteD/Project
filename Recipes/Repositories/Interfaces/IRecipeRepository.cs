@@ -12,7 +12,7 @@ namespace Recipes.Repositories.Interfaces
 
         void Delete(int id);
 
-        void Edit(RecipeViewModel recipe);
+        void Edit(RecipesViewModel recipe);
 
         Recipe Get(int id);
     }
