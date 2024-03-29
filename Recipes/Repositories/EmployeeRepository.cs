@@ -1,5 +1,6 @@
 ﻿using Recipes.Data;
 using Recipes.Data.Entities;
+using Recipes.Migrations;
 using Recipes.Models.Employee;
 using Recipes.Models.Recipes;
 using Recipes.Repositories.Interfaces;
@@ -10,47 +11,49 @@ namespace Recipes.Repositories
     {
         private readonly ApplicationDbContext context;
 
-        public RecipeRepository(ApplicationDbContext context)
+        public EmployeeRepository(ApplicationDbContext context)
         {
             this.context = context;
         }
 
-        public void Add(Recipe recipe)
+        public void Add(Employee employee)
         {
-            if (recipe is null)
+            if (employee is null)
             {
-                throw new ArgumentException("Recipe can't be null!");
+                throw new ArgumentException("Employee can't be null!");
             }
 
-            context.Recipe.Add(recipe);
+            context.Employees.Add(employee);
 
             context.SaveChanges();
         }
 
-        public IEnumerable<Recipe> GetAll()
-            => context.Recipe.ToList();
+        public IEnumerable<Employee> GetAll()
+            => context.Employees.ToList();
 
         public void Delete(int id)
         {
-            var recipe = Get(id);
+            var employee = Get(id);
             // ToDo: add null value validation
 
-            context.Recipe.Remove(recipe);
+            context.Employees.Remove(employee);
             context.SaveChanges();
         }
 
-        public void Edit(RecipeViewModel recipe)
+        public void Edit(EmployeeViewModel employee)
         {
-            var entity = Get(recipe.Id);
+            var entity = Get(employee.Id);
 
-            entity.Name = recipe.Name;
-            entity.Ingredients = recipe.Ingredients;
-            entity.Description = recipe.Description;
+            entity.Name = employee.Name;
+            entity.Email = employee.Email;
+            entity.Salary = employee.Salary;
+            entity.DateOfBirth = employee.DateOfBirth;
+            entity.Department = employee.Department;
 
             context.SaveChanges();
         }
 
-        public Recipe Get(int id)
-            => context.Recipe.FirstOrDefault(product => product.Id == id);
+        public Employee Get(int id)
+            => context.Employees.FirstOrDefault(product => product.Id == id);
     }
 }

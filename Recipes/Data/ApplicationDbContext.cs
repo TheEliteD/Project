@@ -20,6 +20,6 @@ namespace Recipes.Data
         public DbSet<Recipe> Recipe { get; set; }
         public DbSet<RecipeDetails> RecipeDetails { get; set; } = default!;
         public DbSet<Recipes.Models.Chefs> Chefs { get; set; } = default!;
-        public DbSet<Recipes.Models.Employee.Employee> Employees { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

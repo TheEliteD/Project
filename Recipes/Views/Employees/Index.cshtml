@@ -1,34 +1,57 @@
-﻿@model List<Recipes.Models.Employee.Employee>
-
+﻿﻿@using Recipes.Models.Employee
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
 @{
+    ViewData["Title"] = "Employees";
 }
 
-<h1>Current Employees</h1>
+@model IEnumerable<EmployeeViewModel>
 
-<table class="table">
-	<thead>
-		<tr>
-			<th>Id</th>
-			<th>Name</th>
-			<th>Email</th>
-			<th>Salary</th>
-			<th>Date of Birth</th>
-			<th>Department</th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		@foreach (var employee in Model)
-		{
-			<tr>
-				<td>@employee.Id</td>
-				<td>@employee.Name</td>
-				<td>@employee.Email</td>
-				<td>@employee.Salary</td>
-				<td>@employee.DateOfBirth.ToString("dd-MM-yyyy")</td>
-				<td>@employee.Department</td>
-				<td><a href=Employees/View/@employee.Id>View</a></td>
-			</tr>
-		}
-	</tbody>
-</table>
+@if (User.Identity?.IsAuthenticated ?? false)
+{
+    <h2>Employees</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Ingredients</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr>
+                    <th>@employee.Name</th>
+                    <th>@employee.Email</th>
+                    <th>@employee.Salary</th>
+                    <th>@employee.DateOfBirth</th>
+                    <th>@employee.Department</th>
+                    <th>
+                        <button>
+                            <a asp-controller="Employees"
+                               asp-action="Edit"
+                               asp-route-id="@employee.Id">
+                                Edit
+                            </a>
+                        </button>
+                        <button>
+                            <a asp-controller="Employees"
+                               asp-action="Delete"
+                               asp-route-id="@employee.Id">
+                                Delete
+                            </a>
+                        </button>
+                    </th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h2 class="text-danger">You can't accesss this page if you aren't logged in.</h2>
+}

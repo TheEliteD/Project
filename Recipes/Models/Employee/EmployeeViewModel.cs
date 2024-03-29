@@ -6,14 +6,14 @@ namespace Recipes.Models.Employee
 {
     public class EmployeeViewModel
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
 
         public string Email { get; set; }
 
         public int Salary { get; set; }
-        public DateTime Birthday { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public string Department { get; set; }
 
 
@@ -27,7 +27,7 @@ namespace Recipes.Models.Employee
             Name = employee.Name;
             Email = employee.Email;
             Salary = employee.Salary;
-            Birthday = employee.Birthday;
+            DateOfBirth = employee.DateOfBirth;
             Department = employee.Department;
         }
     }

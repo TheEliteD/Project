@@ -5,7 +5,7 @@ namespace Recipes.Data.Entities
     public class Employee
     {
         [Key]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -17,7 +17,7 @@ namespace Recipes.Data.Entities
         public int Salary { get; set; }
 
         [Required]
-        public DateTime Birthday { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         [Required]
         public string Department { get; set; }
@@ -26,18 +26,18 @@ namespace Recipes.Data.Entities
         {
         }
 
-        public Employee(Guid id, string name, string email, int salary, DateTime birthday, string department)
-            : this(name, email, salary, birthday, department)
+        public Employee(int id, string name, string email, int salary, DateTime dateOfBirth, string department)
+            : this(name, email, salary, dateOfBirth, department)
         {
             Id = id;
         }
 
-        public Employee(string name, string email, int salary, DateTime birthday, string department)
+        public Employee(string name, string email, int salary, DateTime dateOfBirth, string department)
         {
             Name = name;
             Email = email;
             Salary = salary;
-            Birthday = birthday;
+            dateOfBirth = DateOfBirth;
             Department = department;
         }
 
@@ -50,7 +50,7 @@ namespace Recipes.Data.Entities
             Name == other.Name &&
             Email == other.Email &&
             Salary == other.Salary &&
-            Birthday == other.Birthday &&
+            DateOfBirth == other.DateOfBirth &&
             Department == other.Department;
     }
 }

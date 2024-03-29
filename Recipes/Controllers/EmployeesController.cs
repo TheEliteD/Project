@@ -1,108 +1,61 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Recipes.Data;
+using Recipes.Data.Entities;
+using Recipes.Migrations;
 using Recipes.Models.Employee;
+using Recipes.Models.Recipes;
+using Recipes.Services.Interfaces;
 
 namespace Recipes.Controllers
 {
     public class EmployeesController : Controller
     {
-        private readonly ApplicationDbContext context;
+        private readonly IEmployeeService employeeService;
 
-        public EmployeesController(ApplicationDbContext context)
+        public EmployeesController(IEmployeeService employeeService)
         {
-            this.context = context;
+            this.employeeService = employeeService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var employees = await context.Employees.ToListAsync();
+            var employees = employeeService.GetAll();
+
             return View(employees);
         }
 
-        [HttpGet]
-        public IActionResult Add(Employee _recipe)
+        public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(AddEmployeeViewModel addEmployee)
+        public IActionResult Create(CreateEmployeeViewModel employee)
         {
-            var employee = new Employee()
-            {
-                Id = Guid.NewGuid(),
-                Name = addEmployee.Name,
-                Email = addEmployee.Email,
-                Salary = addEmployee.Salary,
-                DateOfBirth = addEmployee.DateOfBirth,
-                Department = addEmployee.Department
-            };
+            employeeService.Add(employee);
 
-            await context.Employees.AddAsync(employee);
-            await context.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet]
-        public async Task<IActionResult> View(Guid id)
+        public IActionResult Delete(int id)
         {
-            var employee = await context.Employees.FirstOrDefaultAsync(x => x.Id == id);
+            employeeService.Delete(id);
 
-            if (employee != null)
-            {
-                var viewModel = new UpdateEmployeeViewModel()
-                {
-                    Id = Guid.NewGuid(),
-                    Name = employee.Name,
-                    Email = employee.Email,
-                    Salary = employee.Salary,
-                    DateOfBirth = employee.DateOfBirth,
-                    Department = employee.Department
-                };
+            return RedirectToAction(nameof(Index));
+        }
 
-                return await Task.Run(() => View("View", viewModel));
-            }
+        public IActionResult Edit(int id)
+        {
+            var product = employeeService.Get(id);
 
-            return RedirectToAction("Index");
+            return View(product);
         }
 
         [HttpPost]
-        public async Task<IActionResult> View(UpdateEmployeeViewModel model)
+        public IActionResult Edit(EmployeeViewModel employee)
         {
-            var employee = await context.Employees.FindAsync(model.Id);
+            employeeService.Edit(employee);
 
-            if (employee != null)
-            {
-                employee.Name = model.Name;
-                employee.Email = model.Email;
-                employee.Salary = model.Salary;
-                employee.DateOfBirth = model.DateOfBirth;
-                employee.Department = model.Department;
-
-                await context.SaveChangesAsync();
-
-                return RedirectToAction("Index");
-            }
-
-            return RedirectToAction("Index");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Delete(UpdateEmployeeViewModel model)
-        {
-            var employee = await context.Employees.FindAsync(model.Id);
-
-            if (employee != null)
-            {
-                context.Employees.Remove(employee);
-                await context.SaveChangesAsync();
-
-                return RedirectToAction("Index");
-            }
-
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
     }
 }
