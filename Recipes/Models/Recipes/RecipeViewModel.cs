@@ -17,12 +17,12 @@ namespace Recipes.Models.Recipes
         {
         }
 
-        public RecipeViewModel(RecipeEntity recipe)
+        public RecipeViewModel(RecipeEntity product)
         {
-            Id = recipe.Id;
-            Name = recipe.Name;
-            Ingredients = recipe.Ingredients;
-            Description = recipe.Description;
+            Id = product.Id;
+            Name = product.Name;
+            Ingredients = product.Ingredients;
+            Description = product.Description;
         }
     }
 }

@@ -13,11 +13,11 @@ namespace Recipes.Models.Employee
         public CreateRecipeViewModel()
         { }
 
-        public CreateRecipeViewModel(RecipeEntity recipe)
+        public CreateRecipeViewModel(RecipeEntity product)
         {
-            Name = recipe.Name;
-            Ingredients = recipe.Ingredients;
-            Description = recipe.Description;
+            Name = product.Name;
+            Ingredients = product.Ingredients;
+            Description = product.Description;
         }
     }
 }
