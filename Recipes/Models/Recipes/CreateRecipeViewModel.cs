@@ -1,6 +1,6 @@
 ﻿using RecipeEntity = Recipes.Data.Entities.Recipe;
 
-namespace Recipes.Models.Recipes
+namespace Recipes.Models.Employee
 {
     public class CreateRecipeViewModel
     {

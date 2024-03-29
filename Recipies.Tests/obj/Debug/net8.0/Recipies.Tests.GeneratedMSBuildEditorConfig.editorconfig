@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Recipies.Tests
-build_property.ProjectDir = E:\Programming\AAAAA\Project\Recipies.Tests\
+build_property.ProjectDir = D:\Projects\THE PROJECT FINAL\Project\Recipies.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

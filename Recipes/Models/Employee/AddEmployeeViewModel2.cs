@@ -1,6 +1,4 @@
-﻿
-
-namespace Recipes.Models.Employee
+﻿/*namespace Recipes.Models.Employee
 {
     public class AddEmployeeViewModel
     {
@@ -11,4 +9,4 @@ namespace Recipes.Models.Employee
         public DateTime DateOfBirth { get; set; }
         public string Department { get; set; }
     }
-}
+}*/

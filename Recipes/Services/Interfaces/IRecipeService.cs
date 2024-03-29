@@ -1,4 +1,5 @@
-﻿using Recipes.Models.Recipes;
+﻿using Recipes.Models.Employee;
+using Recipes.Models.Recipes;
 
 namespace Recipes.Services.Interfaces
 {

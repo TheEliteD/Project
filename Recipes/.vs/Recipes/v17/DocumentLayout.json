@@ -1,68 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Programming\\AAAAA\\Project\\Recipes\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\services\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\repositories\\reciperepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\Projects\\THE PROJECT FINAL\\Project\\Recipes\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RecipeServiceTests.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFsAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T20:46:11.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecipeRepositoryTests.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Repositories\\RecipeRepositoryTests.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowBkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T18:23:32.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T18:22:33.802Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

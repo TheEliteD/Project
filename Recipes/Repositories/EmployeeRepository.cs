@@ -6,7 +6,7 @@ using Recipes.Repositories.Interfaces;
 
 namespace Recipes.Repositories
 {
-    public class RecipeRepository : IRecipeRepository
+    public class EmployeeRepository : IEmployeeRepository
     {
         private readonly ApplicationDbContext context;
 

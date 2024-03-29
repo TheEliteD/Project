@@ -10221,19 +10221,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
+      "projectUniqueName": "D:\\Projects\\THE PROJECT FINAL\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
       "projectName": "Recipies.Tests",
-      "projectPath": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\obj\\",
+      "projectPath": "D:\\Projects\\THE PROJECT FINAL\\Project\\Recipies.Tests\\Recipies.Tests.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\THE PROJECT FINAL\\Project\\Recipies.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10241,14 +10246,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Programming\\AAAAA\\Project\\Recipes\\Recipes.csproj": {
-              "projectPath": "E:\\Programming\\AAAAA\\Project\\Recipes\\Recipes.csproj"
+            "D:\\Projects\\THE PROJECT FINAL\\Project\\Recipes\\Recipes.csproj": {
+              "projectPath": "D:\\Projects\\THE PROJECT FINAL\\Project\\Recipes\\Recipes.csproj"
             }
           }
         }

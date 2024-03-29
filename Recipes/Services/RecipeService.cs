@@ -1,4 +1,5 @@
 ﻿using Recipes.Data.Entities;
+using Recipes.Models.Employee;
 using Recipes.Models.Recipes;
 using Recipes.Repositories.Interfaces;
 using Recipes.Services.Interfaces;
