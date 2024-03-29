@@ -33,7 +33,7 @@ namespace Recipies.Tests.Services
         public void GivenValidRecipe_WhenAddingARecipe_TheRecipeIsAdded()
         {
 
-            var recipe = new CreateRecipeViewModel()
+            var recipe = new CreateRecipesViewModel()
             {
                 Name = "product",
                 Ingredients = "ingredient",

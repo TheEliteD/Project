@@ -1,151 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\",
+  "WorkspaceRootPath": "E:\\Programming\\AAAAA\\Project\\Recipes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\services\\chefsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\services\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\repositories\\chefsrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\inddata\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\inddata\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\entities\\chef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\entities\\chef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\models\\chefs\\createchefsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:models\\chefs\\createchefsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\models\\chefs\\recipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:models\\chefs\\recipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\models\\chefs2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:models\\chefs2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\it kariera project\\project\\project\\recipies.tests\\controllers\\employeescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\it kariera project\\project\\project\\recipies.tests\\controllers\\chefscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\it kariera project\\project\\project\\recipies.tests\\controllers\\recipescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\repositories\\interfaces\\ichefsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\interfaces\\ichefsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\repositories\\interfaces\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\interfaces\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\repositories\\chefsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\chefsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\recipes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\recipes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\recipes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\interfaces\\ichefsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\interfaces\\ichefsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\chefsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\chefsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\data\\entities\\chefdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\entities\\chefdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\chefs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\chefs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\chefs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\chefs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\chefs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\chefs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:controllers\\chefscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -155,487 +23,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 36,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ChefsController.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\ChefsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChefsController.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\ChefsController.cs",
-              "RelativeToolTip": "Controllers\\ChefsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:17:59.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAB+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T15:16:57.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:14:43.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chefs\\Index.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Index.cshtml",
-              "RelativeToolTip": "Views\\Chefs\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:53:37.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chefs\\Edit.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Chefs\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:52:40.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Chefs\\Create.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Chefs\\Create.cshtml",
-              "RelativeToolTip": "Views\\Chefs\\Create.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:50:14.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ChefDetails.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Entities\\ChefDetails.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\ChefDetails.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Entities\\ChefDetails.cs",
-              "RelativeToolTip": "Data\\Entities\\ChefDetails.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAMwBwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:23:43.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ChefsService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\ChefsService.cs",
-              "RelativeDocumentMoniker": "Services\\ChefsService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\ChefsService.cs",
-              "RelativeToolTip": "Services\\ChefsService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowBQAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:18:11.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IChefsService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IChefsService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IChefsService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IChefsService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IChefsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:10:25.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "RecipesController.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\RecipesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\RecipesController.cs",
-              "RelativeToolTip": "Controllers\\RecipesController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:09:13.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recipes\\Edit.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Recipes\\Edit.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwCUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:08:37.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recipes\\Index.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Recipes\\Index.cshtml",
-              "RelativeToolTip": "Views\\Recipes\\Index.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAcwDYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:08:25.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RecipeService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\RecipeService.cs",
-              "RelativeDocumentMoniker": "Services\\RecipeService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\RecipeService.cs",
-              "RelativeToolTip": "Services\\RecipeService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:08:01.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IRecipeService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IRecipeService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IRecipeService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IRecipeService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IRecipeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:07:36.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RecipeRepository.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\RecipeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\RecipeRepository.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\RecipeRepository.cs",
-              "RelativeToolTip": "Repositories\\RecipeRepository.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAADwvykAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:04:19.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ChefsRepository.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\ChefsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ChefsRepository.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\ChefsRepository.cs",
-              "RelativeToolTip": "Repositories\\ChefsRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwC0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:04:18.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IRecipeRepository.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\Interfaces\\IRecipeRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRecipeRepository.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\Interfaces\\IRecipeRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IRecipeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:03:15.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IChefsRepository.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\Interfaces\\IChefsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IChefsRepository.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\Interfaces\\IChefsRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IChefsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:02:44.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RecipesControllerTests.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Controllers\\RecipesControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Controllers\\RecipesControllerTests.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Controllers\\RecipesControllerTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Controllers\\RecipesControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:00:42.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ChefsControllerTests.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Controllers\\ChefsControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Controllers\\ChefsControllerTests.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Controllers\\ChefsControllerTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Controllers\\ChefsControllerTests.cs",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAAAOIAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:00:37.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeesControllerTests.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Controllers\\EmployeesControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Controllers\\EmployeesControllerTests.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipies.Tests\\Controllers\\EmployeesControllerTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Controllers\\EmployeesControllerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T14:00:36.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-29T14:00:26.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Chefs2.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs2.cs",
-              "RelativeDocumentMoniker": "Models\\Chefs2.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs2.cs",
-              "RelativeToolTip": "Models\\Chefs2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T13:59:51.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RecipeViewModel.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs\\RecipeViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\Chefs\\RecipeViewModel.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs\\RecipeViewModel.cs",
-              "RelativeToolTip": "Models\\Chefs\\RecipeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T13:57:55.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateChefsViewModel.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs\\CreateChefsViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\Chefs\\CreateChefsViewModel.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Models\\Chefs\\CreateChefsViewModel.cs",
-              "RelativeToolTip": "Models\\Chefs\\CreateChefsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T13:45:48.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Chef.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Entities\\Chef.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Chef.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Entities\\Chef.cs",
-              "RelativeToolTip": "Data\\Entities\\Chef.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T13:33:44.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T21:44:57.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T20:00:29.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswBsAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T19:52:18.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAwwIgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T20:08:58.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAsAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T19:30:34.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T19:30:14.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRoles.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Enums\\UserRoles.cs",
-              "RelativeDocumentMoniker": "Data\\Enums\\UserRoles.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Data\\Enums\\UserRoles.cs",
-              "RelativeToolTip": "Data\\Enums\\UserRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T19:33:45.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\IndData\\AppUser.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\IndData\\AppUser.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Areas\\Identity\\IndData\\AppUser.cs",
-              "RelativeToolTip": "Areas\\Identity\\IndData\\AppUser.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T20:08:18.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T21:57:13.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-23T23:18:54.966Z",
+              "Title": "RecipeServiceTests.cs",
+              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
+              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
+              "RelativeToolTip": "..\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:25:03.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAuwCwAAAAaAAAA",
+              "Title": "ChefsServiceTests.cs",
+              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
+              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
+              "RelativeToolTip": "..\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T17:14:11.672Z",
+              "WhenOpened": "2024-03-29T16:18:17.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:08:26.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChefsRepositoryTests.cs",
+              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
+              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
+              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
+              "RelativeToolTip": "..\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAUwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T16:00:40.139Z",
               "EditorCaption": ""
             }
           ]
