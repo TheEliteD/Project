@@ -1,19 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Programming\\AAAAA\\Project\\Recipes\\",
+  "WorkspaceRootPath": "E:\\It Kariera project\\Project\\Project\\Recipes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\services\\chefsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\services\\recipeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F743935F-334D-40A3-B87A-4EC6B066F947}|..\\Recipies.Tests\\Recipies.Tests.csproj|e:\\programming\\aaaaa\\project\\recipies.tests\\repositories\\chefsrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\programming\\aaaaa\\project\\recipes\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|e:\\it kariera project\\project\\project\\recipes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226AFB74-7CB3-4386-8D88-D7C7595BC353}|Recipes.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecipeServiceTests.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Services\\RecipeServiceTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T16:25:03.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChefsServiceTests.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Services\\ChefsServiceTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\It Kariera project\\Project\\Project\\Recipes\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwB4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T16:18:17.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipes\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T16:08:26.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChefsRepositoryTests.cs",
-              "DocumentMoniker": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
-              "RelativeDocumentMoniker": "..\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
-              "ToolTip": "E:\\Programming\\AAAAA\\Project\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
-              "RelativeToolTip": "..\\Recipies.Tests\\Repositories\\ChefsRepositoryTests.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAUwAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T16:00:40.139Z",
+              "WhenOpened": "2024-03-23T17:14:11.672Z",
               "EditorCaption": ""
             }
           ]

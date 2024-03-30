@@ -19,7 +19,7 @@ namespace Recipes.Repositories
         {
             if (chef is null)
             {
-                throw new ArgumentException("Chefs can't be null!");
+                throw new ArgumentException("Chef can't be null!");
             }
 
             context.Chefs.Add(chef);
