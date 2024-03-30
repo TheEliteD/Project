@@ -41,7 +41,7 @@ namespace Recipies.Tests.Repositories
             var exception = Assert.Throws<ArgumentException>(() => chefsRepository.Add(null));
 
             Assert.That(
-                exception.Message, Is.EqualTo("Chef can't be null!"),
+                exception.Message, Is.EqualTo("Chefs can't be null!"),
                 "Exception message is different than expexted");
         }
 
